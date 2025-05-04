@@ -1,0 +1,110 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #18191f;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+aside {
+    width: 250px;
+    background-color: #1e2028;
+    padding: 20px;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+aside img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+.nav-links li {
+    margin: 10px 0;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px 15px;
+    background-color: #2a2c35;
+    border-radius: 5px;
+}
+.nav-links a:hover, .nav-links a.active {
+    background-color: #3a3d47;
+}
+#logout {
+    margin-top: auto;
+    background-color: #ff5c5c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+#logout:hover {
+    background-color: #e54949;
+}
+main {
+    flex: 1;
+    padding: 20px;
+}
+.song-player {
+    background-color: #2a2c35;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.song-player img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.song-player button {
+    background-color: #374151;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.song-player button:hover {
+    background-color: #2c3e50;
+}
+.playlist {
+    background-color: #2a2c35;
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.playlist div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.playlist div:hover {
+    background-color: #3a3d47;
+}
+.playlist img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.playlist span {
+    color: #ccc;
+}

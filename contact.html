@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Contact Us - Music Player</title>
+  <link rel="stylesheet" href="aside.css"/>
+</head>
+
+<aside>
+    <div class="flex items-center space-x-4">
+        <img src="assets/download.jpeg" alt="User Profile" class="rounded-full w-24 h-24 object-cover" />
+        <div>
+          <h2 class="text-xl font-semibold">Vaibhav Rawat</h2>
+          
+        </div>
+      </div>
+      <hr >
+    <ul class="nav-links">
+      <li><a href="home.html" class="active">Home</a></li>
+      <li><a href="index.html">Surprise</a></li>
+      <li><a href="about.html">About This</a></li>
+      <li><a href="contact.html">Your Thoughts?</a></li>
+    </ul>
+    <div id="logout">💌 From Me</div>
+  </aside>
+  <main>
+    <body style="font-family: Arial, sans-serif; background-color: #111; color: #f1f1f1; margin: 0; padding: 0;"></body>
+    <!-- Header Image Section -->
+    <div style="background-image: url('assets/main-bg.png'); background-size: cover; background-position: center; height: 300px; display: flex; align-items: center; justify-content: center;">
+        <h1 style="color: white; font-size: 3rem; text-shadow: 2px 2px 8px rgba(0,0,0,0.6);">Your Thoughts?</h1>
+      </div>
+    
+    <h1>Drop your thoughts about this</h1>
+    <div class="col-lg-6">
+      <form action="#contact" method="post" class="contact-form">
+        <div class="form-group">
+          <input type="text" id="contact_name" name="contact_name"
+            placeholder="Name" required=""
+            style="width: 100%; font-size: 1.1rem; padding: 14px; border-radius: 8px; margin-bottom: 20px;">
+        </div>
+        <div class="form-group">
+          <input type="email" id="contact_email" name="contact_email"
+            placeholder="Email" required=""
+            style="width: 100%; font-size: 1.1rem; padding: 14px; border-radius: 8px; margin-bottom: 20px;">
+        </div>
+        <div class="form-group">
+          <textarea id="contact_message" name="contact_message" rows="9"
+            placeholder="Message" required=""
+            style="width: 100%; font-size: 1.1rem; padding: 14px; border-radius: 8px; height: 200px; margin-bottom: 20px;"></textarea>
+        </div>
+        <button type="submit"
+          style="background-color: #ff6b6b; color: white; font-size: 1.1rem; padding: 12px 25px; border: none; border-radius: 8px; cursor: pointer; float: right;">
+          Send
+        </button>
+      </form>
+    </div>
+    
+  </main>
+  </main>
+</body>
+</html>
